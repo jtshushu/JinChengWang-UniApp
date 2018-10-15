@@ -9,7 +9,6 @@
         /* 5+App特有相关 */
         "modules" : {
             "Payment" : {},
-            "Push" : {},
             "Share" : {},
             "Statistic" : {},
             "VideoPlayer" : {},
@@ -48,6 +47,7 @@
                     "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
                     "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
                     "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\"/>",
                     "<uses-permission android:name=\"android.permission.USE_FINGERPRINT\"/>",
                     "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
                     "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
@@ -71,7 +71,11 @@
                     "weixin" : {
                         "appid" : "wx19bf34b0fc820a16"
                     }
-                }
+                },
+                "speech" : {
+                    "ifly" : {}
+                },
+                "push" : {}
             },
             "icons" : {
                 "ios" : {
