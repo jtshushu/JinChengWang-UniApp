@@ -79,7 +79,7 @@
             },
             "icons" : {
                 "ios" : {
-                    "appstore" : "C:/Users/Administrator/Pictures/1081.png",
+                    "appstore" : "",
                     "ipad" : {
                         "app" : "unpackage/res/icons/76x76.png",
                         "app@2x" : "unpackage/res/icons/152x152.png",
